@@ -22,9 +22,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 181006435288
-  numberOfFiles: 212
-  numberOfSubjects: 14
+  numberOfBytes: 181203344872
+  numberOfFiles: 268
+  numberOfSubjects: 18
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
@@ -34,7 +34,7 @@ assetsSummary:
   - ElectrodeGroup
   - ElectricalSeries
   - Units
-citation: Ramachandran, Sandhya; Gao, Huan; Yu, Kai; Yeh, Kelly; He, Bin (2025) Neural
+citation: Ramachandran, Sandhya; Gao, Huan; Yu, Kai; Yeh, Kelly; He, Bin (2026) Neural
   Spiking Data in the Rat Somatosensory Cortex Using a Flexible Electrode Responding
   to Transcranial Focused Ultrasound (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001363/draft
 contributor:
@@ -44,6 +44,9 @@ contributor:
   name: Ramachandran, Sandhya
   roleName:
   - dcite:ContactPerson
+  schemaKey: Person
+- email: keunhyul@andrew.cmu.edu
+  name: Lee, Keunhyung
   schemaKey: Person
 - includeInCitation: true
   name: Gao, Huan
@@ -61,11 +64,15 @@ contributor:
   name: Carnegie Mellon University
   schemaKey: Organization
 - includeInCitation: false
-  name: RF1NS131069
+  name: RF1NS131069-01
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- name: R01NS124564
+- name: R01NS124564-01
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- name: RF1NS124564-02
   roleName:
   - dcite:Funder
   schemaKey: Organization
@@ -73,7 +80,7 @@ dateCreated: '2025-03-19T04:58:45.735385+00:00'
 description: 'In this study, we investigate the neuronal response to transcranial
   focused ultrasound stimulation (tFUS) on the somatosensory cortex using a 128-element
   array transducer and a chronically implanted ultraflexible nanoelectric thread electrode.
-  This flexible electrode allows us to  study higher intensities of tFUS which are
+  This flexible electrode allows us to study higher intensities of tFUS which are
   impossible with a rigid electrode due to the vibration artifacts that are created.
   Here we test 5 different levels of in situ ultrasound pressure including 100, 400,
   700, 1000, and 1300 kPa. We then tested the effect of varying duty cycle while keeping
@@ -83,7 +90,12 @@ description: 'In this study, we investigate the neuronal response to transcrania
   constant, testing PRFs of 30, 300, 1500, 3000, and 4500 Hz with a duty cycle of
   30%. In each of these, the fundamental frequency of ultrasound was 1500 kHz, and
   the ultrasound duration was 67 ms, with trials performed every 2 seconds, with a
-  jitter of 10%. Each recording has 505 trials. '
+  jitter of 10%. Each recording has 505 trials.  If you would use part of this dataset,
+  please cite the following publication.  Sandhya Ramachandran, Huan Gao, Keunhyung
+  Lee, Pavlo Zolotavin, Katherine Bray, Chih-Yu Yeh, Siyi Wang, Lan Luan, Chong Xie,
+  Kai Yu, and Bin He: "High Pressure Transcranial Focused Ultrasound Stimulation Induces
+  Parameter-Dependent Cell-Type Specific Effects,” Microsystems & Nanoengineering,
+  2026'
 ethicsApproval: []
 id: DANDI:001363/draft
 identifier: DANDI:001363
