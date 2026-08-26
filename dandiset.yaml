@@ -36,7 +36,8 @@ assetsSummary:
   - Units
 citation: Ramachandran, Sandhya; Gao, Huan; Yu, Kai; Yeh, Kelly; He, Bin (2026) Neural
   Spiking Data in the Rat Somatosensory Cortex Using a Flexible Electrode Responding
-  to Transcranial Focused Ultrasound (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001363/draft
+  to Transcranial Focused Ultrasound (Version 0.260826.1943) [Data set]. DANDI Archive.
+  https://doi.org/10.48324/dandi.001363/0.260826.1943
 contributor:
 - affiliation: []
   email: s.ramachandran8@gmail.com
@@ -77,6 +78,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2025-03-19T04:58:45.735385+00:00'
+datePublished: '2026-08-26T19:43:23.496575+00:00'
 description: 'In this study, we investigate the neuronal response to transcranial
   focused ultrasound stimulation (tFUS) on the somatosensory cortex using a 128-element
   array transducer and a chronically implanted ultraflexible nanoelectric thread electrode.
@@ -96,19 +98,32 @@ description: 'In this study, we investigate the neuronal response to transcrania
   Kai Yu, and Bin He: "High Pressure Transcranial Focused Ultrasound Stimulation Induces
   Parameter-Dependent Cell-Type Specific Effects,” Microsystems & Nanoengineering,
   2026'
+doi: 10.48324/dandi.001363/0.260826.1943
 ethicsApproval: []
-id: DANDI:001363/draft
+id: DANDI:001363/0.260826.1943
 identifier: DANDI:001363
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001363/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001363/0.260826.1943/assets.yaml
 name: Neural Spiking Data in the Rat Somatosensory Cortex Using a Flexible Electrode
   Responding to Transcranial Focused Ultrasound
+publishedBy:
+  endDate: '2026-08-26T19:43:23.496575+00:00'
+  id: urn:uuid:c20542ab-1c3d-41bb-9562-b6455d40bc62
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-08-26T19:43:23.496575+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:a17efde7-b6c9-43b5-8357-83ace293e3c4
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
-url: https://dandiarchive.org/dandiset/001363/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001363/0.260826.1943
+version: 0.260826.1943
 wasGeneratedBy: []
